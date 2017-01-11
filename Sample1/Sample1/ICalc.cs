@@ -11,5 +11,6 @@ namespace Sample1
         double Div(double a, double b);
         double DivB(double a, double b);
         double DivD(double a, double b);
+        double Mult(double a, double b);
     }
 }
