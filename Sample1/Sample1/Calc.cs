@@ -16,5 +16,19 @@ namespace Sample1
         {
             return a / b;
         }
+
+        public double DivB(double a, double b)
+        {
+            if (b == 0)
+            {
+                throw new ArgumentException("b must be non-zero!");
+            }
+            return a / b;
+        }
+
+        public double DivD(double a, double b)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
