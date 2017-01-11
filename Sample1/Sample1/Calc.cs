@@ -7,6 +7,9 @@ namespace Sample1
 {
     public class Calc
     {
-
+        public double Add(double a, double b)
+        {
+            return a + b;
+        }
     }
 }
