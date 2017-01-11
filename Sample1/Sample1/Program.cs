@@ -12,8 +12,11 @@ namespace Sample1
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello World again!");
 
-            Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+            do
+            {
+                Console.WriteLine("Press \"q\" to quit: ");
+                Console.WriteLine();
+            } while (Console.ReadKey().KeyChar != 'q');
         }
     }
 }
