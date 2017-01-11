@@ -11,6 +11,9 @@ namespace Sample1
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Hello World again!");
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
     }
 }
