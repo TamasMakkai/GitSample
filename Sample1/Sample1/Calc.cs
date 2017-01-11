@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Sample1
 {
-    public class Calc
+    public class Calc : ICalc
     {
         public double Add(double a, double b)
         {
