@@ -5,7 +5,8 @@ using System.Text;
 
 namespace Sample1
 {
-    class Book
+    public class Book
     {
+        private int Length { get; set; }
     }
 }
