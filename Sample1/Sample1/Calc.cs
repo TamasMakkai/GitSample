@@ -30,5 +30,10 @@ namespace Sample1
         {
             throw new NotImplementedException();
         }
+
+        public double Mult(double missing_name, double d)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
